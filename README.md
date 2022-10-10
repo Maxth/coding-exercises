@@ -7,6 +7,11 @@
         - Material UI 
         - Eslint
 
+## - Requirements
+
+   - Java 8
+   - Node
+
 ## - To run
 
 Run the main method in Server.java (ensure IDE working directory is coding-exercises)
