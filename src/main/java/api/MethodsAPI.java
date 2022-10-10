@@ -45,6 +45,7 @@ public class MethodsAPI {
 
     @POST
     @Path("reversestring")
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public static Response reverseString(@FormParam("string") String string) {
         return Response.ok(
                 logicFactory.reverseStringUtil(string)).build();

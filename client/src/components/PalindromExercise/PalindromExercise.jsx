@@ -31,7 +31,7 @@ export const PalindromExercise = () => {
         />
         <Box textAlign='center'>
           <Button onClick={fetchReversedNames} variant='contained'>
-            {reversedNames ? 'Clear' : 'Fetch names'}
+            {reversedNames ? 'Clear' : 'Fetch users'}
           </Button>
         </Box>
         {reversedNames !== undefined && (

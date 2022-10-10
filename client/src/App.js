@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, createTheme, ThemeProvider } from '@mui/material';
 import { PalindromExercise } from './components/PalindromExercise/PalindromExercise';
 import { NthLargestExercise } from './components/NthLargestExercise/NthLargestExercise';
+import { ReverseStringExercise } from './components/ReverseStringExercise/ReverseStringExercise';
 
 function App () {
   const theme = createTheme({
@@ -42,6 +43,9 @@ function App () {
         </Box>
         <Box>
           <NthLargestExercise />
+        </Box>
+        <Box>
+          <ReverseStringExercise />
         </Box>
       </Box>
     </ThemeProvider>
